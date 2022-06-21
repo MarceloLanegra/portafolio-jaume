@@ -1,0 +1,18 @@
+.button{
+background: var(--primary);
+color: var(--white);
+font: var(--button);
+padding-inline: 1.5rem;
+padding-block: .8125rem;
+border-radius: .25rem;
+text-transform: uppercase;
+border: none;
+text-decoration: none;
+text-align: center;
+}
+
+.button.is-secondary{
+  background: unset;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
