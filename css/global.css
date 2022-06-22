@@ -17,10 +17,8 @@
 
 body {
   font: var(--body1);
-  margin: 0;
   background: var(--gradient2);
   min-block-size: 100vh;
-  margin-inline: 1rem;
   color: var(--primary);
 }
 
