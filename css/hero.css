@@ -9,6 +9,8 @@
 
 .hero-image img {
   vertical-align: middle;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .hero-description {
@@ -30,10 +32,6 @@
 
 .hero-description p {
   margin: 0;
-}
-
-.hero-social {
-  padding-block-end: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {

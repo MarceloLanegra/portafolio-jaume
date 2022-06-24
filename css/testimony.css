@@ -1,22 +1,26 @@
-.testimony-image{
+.testimony-image {
   margin-block-start: 2.5rem;
   text-align: center;
 }
 
-.testimony-image img{
-  block-size: 197px;
+.testimony-image img {
+  max-inline-size: 100%;
   vertical-align: middle;
   text-align: center;
 }
 
-.testimony-description{
+.testimony-description {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding-block: 2.5rem;
 }
 
-.testimony-title{
+.testimony-description p {
+  margin: 0;
+}
+
+.testimony-title {
   background: var(--primary);
   color: var(--white);
   align-self: flex-start;
@@ -24,13 +28,35 @@
   padding-inline: .5rem;
   padding-block: .25rem;
   font: var(--headline5);
-  margin-inline-start: .25rem;
   box-shadow: -4px 4px 0 var(--white);
 }
 
+.testimony-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 @media screen and (min-width:768px) {
-  .testimony{
+  .testimony {
     display: flex;
     align-items: center;
+  }
+
+  .testimony-image,
+  .testimony-description {
+    flex: 1;
+  }
+
+  .testimony:nth-of-type(odd) .testimony-image {
+    order: 2;
+  }
+
+  .testimony-preview {
+    flex-direction: row;
+  }
+
+  .testimony-preview a:nth-of-type(2) {
+    order: -1;
   }
 }

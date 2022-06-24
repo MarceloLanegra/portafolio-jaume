@@ -1,0 +1,22 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+  max-inline-size: 33.9375rem;
+  font-weight: bold;
+}
+
+.form-name,.form-mail,.form-message{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form input,.form-message textarea{
+  border: 2px solid #858C94;
+  border-radius: .5rem;
+  padding-inline: 1rem;
+  padding-block: .75rem;
+  font: var(--body1);
+}

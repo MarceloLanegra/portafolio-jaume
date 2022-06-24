@@ -16,6 +16,7 @@
 }
 
 body {
+  margin: 0;
   font: var(--body1);
   background: var(--gradient2);
   min-block-size: 100vh;
