@@ -1,158 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Portafolio de Jaume</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/index.css">
-  <title>Portafolio de Jaume</title>
-</head>
-
-<body>
-  <div class="wrapper">
+  <body>
     <header class="header">
-      <img src="./images/logo.png" alt="Logo de Jaume" width="70" height="20">
-      <nav class="menu" aria-label="main-navigation">
-        <ul>
-          <li><a class="is-active" href="#main">Hola</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#contact">Hablemos</a></li>
-        </ul>
-      </nav>
-      <button class="button">Currículum</button>
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./images/logo.png" alt="Logo de Jaume" width="70" height="20" />
+          <nav class="menu" aria-label="main-navigation">
+            <ul>
+              <li><a class="is-active" href="#main">Hola</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#contact">Hablemos</a></li>
+            </ul>
+          </nav>
+          <button class="button">Currículum</button>
+        </div>
+      </div>
     </header>
-    <section class="hero" id="main" aria-label="main">
-      <div class="hero-image">
-        <img src="./images/jaume.png" width="328" height="330" alt="Foto de perfil">
+    <div class="wrapper">
+      <section class="hero" id="main" aria-label="main">
+        <div class="hero-image">
+          <img
+            src="./images/jaume.png"
+            width="328"
+            height="330"
+            alt="Foto de perfil"
+          />
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="social">
+            <a class="button-icon" href="tel:+51987528665"
+              ><i class="icon-phone"></i
+            ></a>
+            <a class="button-icon" href="tel:+51987528665"
+              ><i class="icon-importantMail"></i
+            ></a>
+            <a class="button-icon" href="tel:+51987528665"
+              ><i class="icon-instagram"></i
+            ></a>
+            <a class="button-icon" href="tel:+51987528665"
+              ><i class="icon-twitter"></i
+            ></a>
+          </div>
+          <a class="button" href="">Desargar Currículum</a>
+        </div>
+      </section>
+      <section class="about">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </p>
+        <p>Aquí hay algunos que me gustaría compartir.</p>
+        <i class="icon-down"></i>
+      </section>
+      <div class="project" id="projects">
+        <div class="project-image">
+          <img src="./images/img.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" href="https://leonidasesteban.com" target="_blank"
+            >leonidasesteban.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <div class="project-preview">
+            <a href="#" target="_blank" class="button is-secondary"
+              >Ver código</a
+            >
+            <a href="#" target="_blank" class="button">Ver proyecto</a>
+          </div>
+        </div>
       </div>
-      <div class="hero-description">
-        <h1>
-          <span>¡Hola a todos!</span>
-          <span>Soy Jaume</span>
-        </h1>
-        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+      <section class="card">
+        <blockquote>
+          <img
+            src="./images/user1.png"
+            alt="Foto de usuario"
+            width="64"
+            height="64"
+          />
+          <p>
+            "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses".
+          </p>
+          <p>
+            <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+          </p>
+        </blockquote>
+      </section>
+      <div class="project" id="projects">
+        <div class="project-image">
+          <img src="./images/📱 iPad.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" href="https://leonidasesteban.com" target="_blank"
+            >MARVOL</a
+          >
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <div class="project-preview">
+            <a href="#" target="_blank" class="button is-secondary"
+              >Ver código</a
+            >
+            <a href="#" target="_blank" class="button">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <section class="card">
+        <blockquote>
+          <img
+            src="./images/user2.png"
+            alt="Foto de usuario"
+            width="64"
+            height="64"
+          />
+          <p>
+            "Jaume ha superado mis expectativas desde el diseño hasta el
+            desarrollo".
+          </p>
+          <p>
+            <span>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
+          </p>
+        </blockquote>
+      </section>
+      <div class="project" id="projects">
+        <div class="project-image">
+          <img src="./images/📱 Iphone X.png" alt="" />
+        </div>
+        <div class="project-description">
+          <a class="title" href="https://leonidasesteban.com" target="_blank"
+            >NETNET</a
+          >
+          <p>
+            Películas y series ilimitadas y mucho más.<br />
+            Disfruta donde quieras. Cancela cuando quieras.
+          </p>
+          <div class="project-preview">
+            <a href="#" target="_blank" class="button is-secondary"
+              >Ver código</a
+            >
+            <a href="#" target="_blank" class="button">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <section class="card">
+        <blockquote>
+          <img
+            src="./images/user3.png"
+            alt="Foto de usuario"
+            width="64"
+            height="64"
+          />
+          <p>
+            "Por primera vez en la historia de nuestra empresa, aparecimos en
+            todas las plataformas en las que trabajamos".
+          </p>
+          <p>
+            <span>MARCO CORTEZ / NETNET</span>
+          </p>
+        </blockquote>
+      </section>
+      <form id="contact" action="" method="GET" class="form">
+        <h2 class="title">Hablemos</h2>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+        <div class="form-name">
+          <label for="form-name">Nombre completo</label>
+          <input
+            required
+            name="name"
+            id="form-name"
+            type="text"
+            placeholder="Juan"
+          />
+        </div>
+        <div class="form-mail">
+          <label for="form-mail">Correo electrónico</label>
+          <input
+            required
+            name="mail"
+            id="form-mail"
+            type="email"
+            placeholder="juan@gmail.com"
+          />
+        </div>
+        <div class="form-message">
+          <label for="form-message">Mensaje</label>
+          <textarea
+            required
+            name="message"
+            id="form-message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="button" type="submit">Enviar mensaje</button>
+      </form>
+      <footer class="footer">
+        <div class="footer-logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
         <div class="social">
-          <a class="button-icon" href="tel:+51987528665"><i class="icon-phone"></i></a>
-          <a class="button-icon" href="tel:+51987528665"><i class="icon-importantMail"></i></a>
-          <a class="button-icon" href="tel:+51987528665"><i class="icon-instagram"></i></a>
-          <a class="button-icon" href="tel:+51987528665"><i class="icon-twitter"></i></a>
+          <a class="button-icon" href="tel:+51987528665"
+            ><i class="icon-phone"></i
+          ></a>
+          <a class="button-icon" href="tel:+51987528665"
+            ><i class="icon-importantMail"></i
+          ></a>
+          <a class="button-icon" href="tel:+51987528665"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a class="button-icon" href="tel:+51987528665"
+            ><i class="icon-twitter"></i
+          ></a>
         </div>
-        <a class="button" href="">Desargar Currículum</a>
-      </div>
-    </section>
-    <section class="about">
-      <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
-      </p>
-      <p>Aquí hay algunos que me gustaría compartir.</p>
-      <i class="icon-down"></i>
-    </section>
-    <div class="testimony">
-      <div class="testimony-image">
-        <img src="./images/img.png" alt="">
-      </div>
-      <div class="testimony-description">
-        <a class="testimony-title" href="https://leonidasesteban.com" target="_blank">leonidasesteban.com</a>
-        <p>Accede a más de 120 proyectos que te ayudarán a mejorar
-          tus habilidades como desarrollador Front-End.</p>
-        <div class="testimony-preview">
-          <a href="#" target="_blank" class="button is-secondary">Ver código</a>
-          <a href="#" target="_blank" class="button">Ver proyecto</a>
+        <div class="footer-copyright">
+          <p>Hecho con el ❤ por Marcelo</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
         </div>
-      </div>
+      </footer>
     </div>
-    <section class="card">
-      <blockquote>
-        <img src="./images/user1.png" alt="Foto de usuario" width="64" height="64">
-        <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6
-          meses solo les llevó 1,5 meses".</p>
-        <p>
-          <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
-        </p>
-      </blockquote>
-    </section>
-    <div class="testimony">
-      <div class="testimony-image">
-        <img src="./images/📱 iPad.png" alt="">
-      </div>
-      <div class="testimony-description">
-        <a class="testimony-title" href="https://leonidasesteban.com" target="_blank">MARVOL</a>
-        <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión,
-          videos y más oficiales de Marvol.</p>
-        <div class="testimony-preview">
-          <a href="#" target="_blank" class="button is-secondary">Ver código</a>
-          <a href="#" target="_blank" class="button">Ver proyecto</a>
-        </div>
-      </div>
-    </div>
-    <section class="card">
-      <blockquote>
-        <img src="./images/user2.png" alt="Foto de usuario" width="64" height="64">
-        <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
-        <p>
-          <span>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
-        </p>
-      </blockquote>
-    </section>
-    <div class="testimony">
-      <div class="testimony-image">
-        <img src="./images/📱 Iphone X.png" alt="">
-      </div>
-      <div class="testimony-description">
-        <a class="testimony-title" href="https://leonidasesteban.com" target="_blank">NETNET</a>
-        <p>Películas y series ilimitadas y mucho más.<br>
-          Disfruta donde quieras. Cancela cuando quieras.</p>
-        <div class="testimony-preview">
-          <a href="#" target="_blank" class="button is-secondary">Ver código</a>
-          <a href="#" target="_blank" class="button">Ver proyecto</a>
-        </div>
-      </div>
-    </div>
-    <section class="card">
-      <blockquote>
-        <img src="./images/user3.png" alt="Foto de usuario" width="64" height="64">
-        <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que
-          trabajamos".</p>
-        <p>
-          <span>MARCO CORTEZ / NETNET</span>
-        </p>
-      </blockquote>
-    </section>
-    <form action="" method="GET" class="form">
-      <div class="form-name">
-        <label for="form-name">Nombre completo</label>
-        <input required name="name" id="form-name" type="text" placeholder="Juan">
-      </div>
-      <div class="form-mail">
-        <label for="form-mail">Correo electrónico</label>
-        <input required name="mail" id="form-mail" type="email" placeholder="juan@gmail.com">
-      </div>
-      <div class="form-message">
-        <label for="form-message">Mensaje</label>
-        <textarea required name="message" id="form-message" cols="30" rows="10"></textarea>
-      </div>
-      <button class="button" type="submit">Enviar mensaje</button>
-    </form>
-    <footer class="footer">
-      <div class="footer-logo">
-        <img src="./images/logo.png" alt="">
-      </div>
-      <div class="social">
-        <a class="button-icon" href="tel:+51987528665"><i class="icon-phone"></i></a>
-        <a class="button-icon" href="tel:+51987528665"><i class="icon-importantMail"></i></a>
-        <a class="button-icon" href="tel:+51987528665"><i class="icon-instagram"></i></a>
-        <a class="button-icon" href="tel:+51987528665"><i class="icon-twitter"></i></a>
-      </div>
-      <div class="footer-copyright">
-        <p>Hecho con el ❤ por Marcelo</p>
-        <p>Copyright 2021 - Todos los derechos reservados.</p>
-      </div>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>
